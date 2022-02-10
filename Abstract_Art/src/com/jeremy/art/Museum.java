@@ -20,7 +20,11 @@ public class Museum {
 		museum.add(paint3);
 		museum.add(sculpture1);
 		museum.add(sculpture2);
-			
+		
+		for(int i = 0; i < museum.size(); i++) {
+			museum.get(i).viewArt();
+		}
+		
 	}
 
 }
